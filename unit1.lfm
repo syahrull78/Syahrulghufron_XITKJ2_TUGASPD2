@@ -1,0 +1,45 @@
+object Form1: TForm1
+  Left = 238
+  Height = 240
+  Top = 145
+  Width = 320
+  Caption = 'tugas 2'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '1.0.14.0'
+  object tulis: TEdit
+    Left = 80
+    Height = 23
+    Top = 56
+    Width = 153
+    OnChange = tulisChange
+    TabOrder = 0
+    Text = 'Masukkan Pesan Anda'
+  end
+  object Label1: TLabel
+    Left = 100
+    Height = 1
+    Top = 84
+    Width = 1
+    ParentColor = False
+    OnClick = Label1Click
+  end
+  object Button1: TButton
+    Left = 112
+    Height = 25
+    Top = 104
+    Width = 91
+    Caption = 'show'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 112
+    Height = 25
+    Top = 144
+    Width = 91
+    Caption = 'clear'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+end
